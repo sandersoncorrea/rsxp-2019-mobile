@@ -1,0 +1,47 @@
+{
+  "name": "breakingdevsrsxp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "droid": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.3",
+    "axios": "^0.19.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-navigation": "^4.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/runtime": "^7.7.4",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.7.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.57.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "description": "Aplicatico feito na RSXP 2019",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandersoncorrea/rsxp-2019-mobile.git"
+  },
+  "keywords": [
+    "rsxp2019"
+  ],
+  "author": "Sanderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandersoncorrea/rsxp-2019-mobile/issues"
+  },
+  "homepage": "https://github.com/sandersoncorrea/rsxp-2019-mobile#readme"
+}
