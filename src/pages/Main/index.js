@@ -44,8 +44,10 @@ class Main extends Component {
         answers: 1,
       },
     ];
+
     return (
       <Container>
+        <MenuButton navigation={this.props.navigation} />
         <Header title="3005-A" />
         <ScrollView>
           {data.map(d => {

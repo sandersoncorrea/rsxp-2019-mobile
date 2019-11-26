@@ -8,6 +8,7 @@ import {
 
 import Main from './pages/Main';
 import Login from './pages/Login';
+import Cursos from './pages/Cursos';
 import MenuDrawer from './components/MenuDrawer';
 
 const WIDTH = Dimensions.get('window').width;
@@ -29,6 +30,9 @@ const DrawerNavigator = createDrawerNavigator(
   {
     Main: {
       screen: Main,
+    },
+    Cursos: {
+      screen: Cursos,
     },
   },
   DrawerConfig,
@@ -66,7 +70,7 @@ export default () => (
       const prevScreen = getActiveRouteName(prevState);
 
       if (action.type === 'Navigation/BACK') {
-        if (prevScreen === 'Main') {
+        if (prevScreen === 'Main' || prevScreen === 'Cursos') {
           BackHandler.exitApp();
         }
       }

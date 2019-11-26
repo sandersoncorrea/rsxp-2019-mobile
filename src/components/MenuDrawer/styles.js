@@ -1,8 +1,10 @@
 import {StyleSheet} from 'react-native';
+import Colors from '../../styles/colors';
 
 export default (styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: Colors.raizinblack,
   },
   scroller: {
     flex: 1,

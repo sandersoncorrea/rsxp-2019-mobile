@@ -11,7 +11,9 @@ class MenuDrawer extends Component {
 
   navLink(nav, text) {
     return (
-      <TouchableOpacity onPress={() => this.props.navigation.navigate(nav)}>
+      <TouchableOpacity
+        style={{height: 50}}
+        onPress={() => this.props.navigation.navigate(nav)}>
         <Text style={styles.link}>{text}</Text>
       </TouchableOpacity>
     );
@@ -19,7 +21,9 @@ class MenuDrawer extends Component {
 
   async componentDidMount() {}
 
-  logout() {}
+  logout() {
+    this.props.navigation.navigate('Login');
+  }
 
   render() {
     return (
@@ -32,7 +36,10 @@ class MenuDrawer extends Component {
               </View>
             </View>
           </View>
-          <View style={styles.bottomLinks}>{this.navLink('Main', 'Home')}</View>
+          <View style={styles.bottomLinks}>
+            {this.navLink('Main', 'Main')}
+            {this.navLink('Cursos', 'Cursos')}
+          </View>
         </ScrollView>
         <View style={styles.footer}>
           <TouchableOpacity onPress={() => this.logout()}>

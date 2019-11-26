@@ -35,14 +35,12 @@ class Login extends Component {
         <Form>
           <Input
             placeholder="Email"
-            value={this.state.email}
             autoCapitalize={'none'}
             autoCorrect={false}
             placeholderTextColor={Colors.gray}
           />
           <Input
             placeholder="Senha"
-            value={this.state.password}
             autoCapitalize={false}
             autoCorrect={false}
             secureTextEntry
