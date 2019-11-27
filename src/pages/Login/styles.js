@@ -13,4 +13,11 @@ const Form = styled.View`
   width: 90%;
 `;
 
-export {Container, Form};
+const Logo = styled.View`
+  align-items: center;
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: 40px;
+`;
+
+export {Container, Form, Logo};

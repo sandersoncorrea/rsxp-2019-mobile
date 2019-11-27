@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar, Text} from 'react-native';
 import {Button, Input} from 'react-native-elements';
-import {Container, Form} from './styles';
+import {Container, Form, Logo} from './styles';
 import {withNavigation} from 'react-navigation';
 import Colors from '../../styles/colors';
 class Login extends Component {
@@ -33,6 +33,13 @@ class Login extends Component {
           translucent={false}
         />
         <Form>
+          <Logo>
+            <Text
+              style={{color: Colors.gold, fontSize: 30, fontWeight: 'bold'}}>
+              HACK
+            </Text>
+            <Text style={{color: Colors.white, fontSize: 30}}>SCHOOL</Text>
+          </Logo>
           <Input
             placeholder="Email"
             autoCapitalize={'none'}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Button} from 'react-native';
 import {styles} from './styles';
 import {Icon} from 'react-native-elements';
 import Colors from '../../styles/colors';
@@ -23,6 +23,12 @@ export default class index extends Component {
         <Text style={styles.title}>{title}</Text>
         <Text style={styles.description}>{encurtarTexto(description, 50)}</Text>
         {answers > 0 && <Text style={styles.answers}>{answers} respostas</Text>}
+        <Button
+          style={styles.btnGo}
+          containerStyle={styles.btnGo}
+          onPress={this.props.toGo}
+          title={'Acessar'}
+        />
       </View>
     );
   }

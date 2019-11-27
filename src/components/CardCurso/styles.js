@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: Colors.raizinblack,
   },
-  author: {
+  link: {
     color: Colors.gold,
     fontSize: 10,
   },

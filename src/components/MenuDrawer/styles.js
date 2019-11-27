@@ -4,7 +4,7 @@ import Colors from '../../styles/colors';
 export default (styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.raizinblack,
+    backgroundColor: Colors.gold,
   },
   scroller: {
     flex: 1,
@@ -21,11 +21,13 @@ export default (styles = StyleSheet.create({
     flex: 3,
     flexDirection: 'column',
     justifyContent: 'center',
+    color: Colors.white,
   },
   name: {
     fontSize: 20,
     paddingBottom: 5,
     textAlign: 'left',
+    color: Colors.white,
   },
   img: {
     height: 70,
@@ -41,6 +43,7 @@ export default (styles = StyleSheet.create({
   bottomLinks: {
     flex: 1,
     paddingTop: 10,
+    color: Colors.white,
   },
   link: {
     flex: 1,

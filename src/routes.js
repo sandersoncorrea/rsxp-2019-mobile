@@ -10,6 +10,7 @@ import Main from './pages/Main';
 import Login from './pages/Login';
 import Cursos from './pages/Cursos';
 import MenuDrawer from './components/MenuDrawer';
+import Projeto from './pages/Projeto';
 
 const WIDTH = Dimensions.get('window').width;
 
@@ -45,6 +46,9 @@ const StackNavigator = createStackNavigator(
     },
     DrawerNavigator: {
       screen: DrawerNavigator,
+    },
+    Projeto: {
+      screen: Projeto,
     },
   },
   StackConfig,

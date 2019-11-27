@@ -20,7 +20,7 @@ export default class HeaderComponent extends Component {
           leftComponent={{
             icon: 'arrow-back',
             color: Colors.white,
-            onPress: () => this.goBack(),
+            onPress: () => this.props.navigation.navigate('Login'),
           }}
           centerComponent={{
             text: `${title}`,

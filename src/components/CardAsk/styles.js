@@ -24,4 +24,8 @@ export const styles = StyleSheet.create({
   answers: {
     color: Colors.cerulean,
   },
+  btnGo: {
+    color: Colors.black,
+    backgroundColor: Colors.black,
+  },
 });

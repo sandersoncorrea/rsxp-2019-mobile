@@ -12,6 +12,10 @@ class Main extends Component {
     this.state = {};
   }
 
+  onLearnMore = projeto => {
+    this.props.navigation.navigate('Projeto', {...projeto});
+  };
+
   render() {
     const data = [
       {
@@ -21,6 +25,14 @@ class Main extends Component {
           'Desejo usar realidade aumentada nas aulas de química para ver as células',
         author: 'Pr. Utônio',
         answers: 3,
+        comentarios: [
+          {
+            id: 1,
+            text: 'Poderiamos usar um projeto OpenSource da Google',
+          },
+          {id: 2, text: 'Posso ajudar no projeto'},
+          {id: 3, text: 'Posso ajudar no projeto também'},
+        ],
       },
       {
         id: 2,
@@ -45,7 +57,9 @@ class Main extends Component {
         <Header title="3005-A" />
         <ScrollView>
           {data.map(d => {
-            return <CardAsk key={d.id} dados={d} />;
+            return (
+              <CardAsk key={d.id} dados={d} toGo={() => this.onLearnMore(d)} />
+            );
           })}
         </ScrollView>
       </Container>
