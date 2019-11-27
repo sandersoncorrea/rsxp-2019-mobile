@@ -16,32 +16,26 @@ class Main extends Component {
     const data = [
       {
         id: 1,
-        title: 'Como iniciar RN',
-        description: 'Como faço para iniciar um projeto em React Native?',
-        author: 'Fulano',
+        title: 'Realidade aumentada - Química',
+        description:
+          'Desejo usar realidade aumentada nas aulas de química para ver as células',
+        author: 'Pr. Utônio',
         answers: 3,
       },
       {
         id: 2,
-        title: 'Como iniciar Python',
-        description: 'Como faço para iniciar um projeto em Python?',
-        author: 'Sicrano',
+        title: 'Teste de Reações Qúimicas',
+        description:
+          'Como não temos um laboratório, preciso de fazer experimentos químicos pelo celular',
+        author: 'Pr. Carvalho',
         answers: 19,
       },
       {
         id: 3,
-        title: 'Como iniciar RN',
-        description: 'Como faço para iniciar um projeto em React Native?',
-        author: 'Fulano',
+        title: 'Trabalho em grupo',
+        description: 'Preciso de um APP pra juntar os trabalhos',
+        author: 'Pr. Strange',
         answers: 0,
-      },
-      {
-        id: 4,
-        title: 'Como iniciar Python',
-        description:
-          'Pelo livro que estou estudando, em alguns momentos o autor utiliza __init__ como sendo uma primeira função de uma classe. Esta função (e outras) sempre possuem self como uma das variáveis (coisa que também ainda não compreendi o porquê). Quando devo (e por quê) utilizar funções __init__ dentro de (algumas) classes?',
-        author: 'Sicrano',
-        answers: 1,
       },
     ];
 
