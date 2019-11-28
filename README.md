@@ -7,8 +7,7 @@
 ##### npm run start
 
 # Telas
-![Demo](https://media.giphy.com/media/dv1C56OywrP7Cn20nr/giphy.gif)
-![screen1]("https://raw.githubusercontent.com/sandersoncorrea/rsxp-2019-mobile/master/screens/WhatsApp&#32;Image&#32;2019-11-26&#32;at&#32;23.36.22.jpeg")
+![image]("https://raw.githubusercontent.com/sandersoncorrea/rsxp-2019-mobile/master/screens/WhatsApp&#32;Image&#32;2019-11-26&#32;at&#32;23.36.22.jpeg")
 ![screen2]("https://raw.githubusercontent.com/sandersoncorrea/rsxp-2019-mobile/master/screens/WhatsApp&#32;Image&#32;2019-11-27&#32;at&#32;16.38.17.jpeg")
 ![screen3]("https://raw.githubusercontent.com/sandersoncorrea/rsxp-2019-mobile/master/screens/WhatsApp&#32;Image&#32;2019-11-27&#32;at&#32;16.38.20.jpeg")
 ![screen4]("https://raw.githubusercontent.com/sandersoncorrea/rsxp-2019-mobile/master/screens/WhatsApp&#32;Image&#32;2019-11-27&#32;at&#32;16.38.23.jpeg")
